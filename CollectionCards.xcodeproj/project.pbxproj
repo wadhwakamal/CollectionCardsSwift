@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782984F01FFCB7D90060CA6A /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */; };
 		783614C11FF6171900635C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614C01FF6171900635C28 /* AppDelegate.swift */; };
 		783614C31FF6171900635C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614C21FF6171900635C28 /* ViewController.swift */; };
 		783614C61FF6171900635C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783614C41FF6171900635C28 /* Main.storyboard */; };
 		783614C81FF6171900635C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783614C71FF6171900635C28 /* Assets.xcassets */; };
 		783614CB1FF6171900635C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783614C91FF6171900635C28 /* LaunchScreen.storyboard */; };
+		783614D41FF618E400635C28 /* ChatOnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614D21FF618E400635C28 /* ChatOnboardingCell.swift */; };
+		783614D51FF618E400635C28 /* ChatOnboardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783614D31FF618E400635C28 /* ChatOnboardingCell.xib */; };
+		783614D81FF61C2700635C28 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614D61FF61C2700635C28 /* CardCollectionViewCell.swift */; };
+		783614D91FF61C2700635C28 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783614D71FF61C2700635C28 /* CardCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
 		783614BD1FF6171900635C28 /* CollectionCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783614C01FF6171900635C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783614C21FF6171900635C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		783614C71FF6171900635C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783614CA1FF6171900635C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783614CC1FF6171900635C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783614D21FF618E400635C28 /* ChatOnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOnboardingCell.swift; sourceTree = "<group>"; };
+		783614D31FF618E400635C28 /* ChatOnboardingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatOnboardingCell.xib; sourceTree = "<group>"; };
+		783614D61FF61C2700635C28 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		783614D71FF61C2700635C28 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				783614C01FF6171900635C28 /* AppDelegate.swift */,
 				783614C21FF6171900635C28 /* ViewController.swift */,
+				782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */,
 				783614C41FF6171900635C28 /* Main.storyboard */,
+				783614D21FF618E400635C28 /* ChatOnboardingCell.swift */,
+				783614D31FF618E400635C28 /* ChatOnboardingCell.xib */,
+				783614D61FF61C2700635C28 /* CardCollectionViewCell.swift */,
+				783614D71FF61C2700635C28 /* CardCollectionViewCell.xib */,
 				783614C71FF6171900635C28 /* Assets.xcassets */,
 				783614C91FF6171900635C28 /* LaunchScreen.storyboard */,
 				783614CC1FF6171900635C28 /* Info.plist */,
@@ -123,6 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783614D51FF618E400635C28 /* ChatOnboardingCell.xib in Resources */,
+				783614D91FF61C2700635C28 /* CardCollectionViewCell.xib in Resources */,
 				783614CB1FF6171900635C28 /* LaunchScreen.storyboard in Resources */,
 				783614C81FF6171900635C28 /* Assets.xcassets in Resources */,
 				783614C61FF6171900635C28 /* Main.storyboard in Resources */,
@@ -136,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782984F01FFCB7D90060CA6A /* BaseCollectionCell.swift in Sources */,
+				783614D81FF61C2700635C28 /* CardCollectionViewCell.swift in Sources */,
 				783614C31FF6171900635C28 /* ViewController.swift in Sources */,
+				783614D41FF618E400635C28 /* ChatOnboardingCell.swift in Sources */,
 				783614C11FF6171900635C28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

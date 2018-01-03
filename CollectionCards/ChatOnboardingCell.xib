@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChatOnboardingCell" id="gTV-IL-0wX" customClass="ChatOnboardingCell" customModule="CollectionCards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m93-cw-VIC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINGS TO REMEMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze1-fY-RiP">
+                                <rect key="frame" x="20" y="0.0" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2dv-P1-4pm">
+                                <rect key="frame" x="0.0" y="217" width="320" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FUC-E2-HZN">
+                                <rect key="frame" x="0.0" y="27" width="320" height="190"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="V1a-bK-Xhf">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2dv-P1-4pm" secondAttribute="bottom" id="3Eg-ko-ELj"/>
+                            <constraint firstItem="FUC-E2-HZN" firstAttribute="leading" secondItem="m93-cw-VIC" secondAttribute="leading" id="BfT-Dr-sir"/>
+                            <constraint firstItem="2dv-P1-4pm" firstAttribute="top" secondItem="FUC-E2-HZN" secondAttribute="bottom" id="PRy-bp-OFu"/>
+                            <constraint firstItem="Ze1-fY-RiP" firstAttribute="leading" secondItem="m93-cw-VIC" secondAttribute="leading" constant="20" id="QWj-WI-aH0"/>
+                            <constraint firstAttribute="trailing" secondItem="FUC-E2-HZN" secondAttribute="trailing" id="V3m-b3-LYF"/>
+                            <constraint firstItem="FUC-E2-HZN" firstAttribute="top" secondItem="Ze1-fY-RiP" secondAttribute="bottom" constant="6" id="VCy-dB-Csp"/>
+                            <constraint firstAttribute="trailing" secondItem="2dv-P1-4pm" secondAttribute="trailing" id="avK-eP-reU"/>
+                            <constraint firstAttribute="trailing" secondItem="Ze1-fY-RiP" secondAttribute="trailing" constant="20" id="nzP-T0-3Ce"/>
+                            <constraint firstItem="Ze1-fY-RiP" firstAttribute="top" secondItem="m93-cw-VIC" secondAttribute="top" id="rkY-nQ-0ta"/>
+                            <constraint firstItem="2dv-P1-4pm" firstAttribute="leading" secondItem="m93-cw-VIC" secondAttribute="leading" id="ztK-if-SWl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="m93-cw-VIC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7jF-8i-22u"/>
+                <constraint firstAttribute="trailing" secondItem="m93-cw-VIC" secondAttribute="trailing" id="HgH-Es-MP4"/>
+                <constraint firstAttribute="bottom" secondItem="m93-cw-VIC" secondAttribute="bottom" id="VWz-CW-V26"/>
+                <constraint firstItem="m93-cw-VIC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cIv-4o-JHd"/>
+            </constraints>
+            <connections>
+                <outlet property="collectionView" destination="FUC-E2-HZN" id="YEE-pI-sDv"/>
+                <outlet property="pageControl" destination="2dv-P1-4pm" id="lQi-Q0-IF7"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
