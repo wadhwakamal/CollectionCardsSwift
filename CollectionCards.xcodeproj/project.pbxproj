@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		782984F01FFCB7D90060CA6A /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */; };
+		782984F21FFCF7D10060CA6A /* readme-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 782984F11FFCF7D00060CA6A /* readme-screenshot.png */; };
 		783614C11FF6171900635C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614C01FF6171900635C28 /* AppDelegate.swift */; };
 		783614C31FF6171900635C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783614C21FF6171900635C28 /* ViewController.swift */; };
 		783614C61FF6171900635C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783614C41FF6171900635C28 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		782984F11FFCF7D00060CA6A /* readme-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "readme-screenshot.png"; sourceTree = "<group>"; };
 		783614BD1FF6171900635C28 /* CollectionCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783614C01FF6171900635C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783614C21FF6171900635C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		783614BF1FF6171900635C28 /* CollectionCards */ = {
 			isa = PBXGroup;
 			children = (
+				782984F11FFCF7D00060CA6A /* readme-screenshot.png */,
 				783614C01FF6171900635C28 /* AppDelegate.swift */,
 				783614C21FF6171900635C28 /* ViewController.swift */,
 				782984EF1FFCB7D90060CA6A /* BaseCollectionCell.swift */,
@@ -143,6 +146,7 @@
 				783614CB1FF6171900635C28 /* LaunchScreen.storyboard in Resources */,
 				783614C81FF6171900635C28 /* Assets.xcassets in Resources */,
 				783614C61FF6171900635C28 /* Main.storyboard in Resources */,
+				782984F21FFCF7D10060CA6A /* readme-screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
