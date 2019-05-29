@@ -59,6 +59,6 @@ extension ChatOnboardingCell: UIScrollViewDelegate {
         let index = targetContentOffset.pointee.x / (pageWidth - 70)
         
         let indexPath = IndexPath(item: Int(index), section: 0)
-        collectionView.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredHorizontally, animated: true)
+        collectionView.scrollToItem(at: indexPath, at: UICollectionView.ScrollPosition.centeredHorizontally, animated: true)
     }
 }
